@@ -1,7 +1,7 @@
 /*bootstrap样式重写*/
-.navbar-inverse{background-color:#2a8c70;border-color:#2b7a5c}
+.navbar-inverse{background-color:#222;border-color:#0075a8}
 .navbar-inverse .navbar-nav>li>a{color:#fff}
-.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.active>a:focus,.navbar-inverse .navbar-nav>.active>a:hover{background-color:#2b7a5c}
+.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.active>a:focus,.navbar-inverse .navbar-nav>.active>a:hover{background-color:#0075a8}
 .navbar-inverse .navbar-nav>.open>a,.navbar-inverse .navbar-nav>.open>a:focus,.navbar-inverse .navbar-nav>.open>a:hover{background-color:#008151}
 .navbar-inverse .navbar-toggle:focus,.navbar-inverse .navbar-toggle:hover{background-color:#008151}
 .navbar-inverse .navbar-toggle{border-color:#008151}
@@ -10,11 +10,11 @@
 
 @media (max-width: 767px){.navbar-inverse .navbar-nav .open .dropdown-menu>li>a {color: #fff;}}
 @media (max-width: 767px){.navbar-inverse .navbar-nav .open .dropdown-menu .divider {background-color: #2b7a5c;}}
-.btn-primary{border-color:#008151;background-color:#009a61;color:#fff;}
-.btn-primary.active,.btn-primary:active,.btn-primary:focus,.btn-primary:hover,.open>.btn-primary.dropdown-toggle{border-color:#00432a;background-color:#006741;color:#fff;}
+.btn-primary{border-color:#fff;background-color:#0075a8;color:#fff;}
+.btn-primary.active,.btn-primary:active,.btn-primary:focus,.btn-primary:hover,.open>.btn-primary.dropdown-toggle{border-color:#00432a;background-color:#0075a8;color:#fff;}
 .btn-primary.active,.btn-primary:active,.open>.btn-primary.dropdown-toggle{background-image:none;}
-.btn-primary.disabled,.btn-primary.disabled.active,.btn-primary.disabled:active,.btn-primary.disabled:focus,.btn-primary.disabled:hover,.btn-primary[disabled],.btn-primary[disabled].active,.btn-primary[disabled]:active,.btn-primary[disabled]:focus,.btn-primary[disabled]:hover,fieldset[disabled] .btn-primary,fieldset[disabled] .btn-primary.active,fieldset[disabled] .btn-primary:active,fieldset[disabled] .btn-primary:focus,fieldset[disabled] .btn-primary:hover{border-color:#008151;background-color:#009a61;}
-.btn-primary .badge{background-color:#fff;color:#009a61;}
+.btn-primary.disabled,.btn-primary.disabled.active,.btn-primary.disabled:active,.btn-primary.disabled:focus,.btn-primary.disabled:hover,.btn-primary[disabled],.btn-primary[disabled].active,.btn-primary[disabled]:active,.btn-primary[disabled]:focus,.btn-primary[disabled]:hover,fieldset[disabled] .btn-primary,fieldset[disabled] .btn-primary.active,fieldset[disabled] .btn-primary:active,fieldset[disabled] .btn-primary:focus,fieldset[disabled] .btn-primary:hover{border-color:#008151;background-color:#0075a8;}
+.btn-primary .badge{background-color:#fff;color:#0075a8;}
 .btn-success{border-color:#4cae4c;background-color:#5cb85c;color:#fff;}
 
 .pagination{display:inline-block;margin:21px 0;padding-left:0;border-radius:3px;}
@@ -158,8 +158,8 @@ ul{list-style: none;padding: 0;}
 .text-fmt{overflow:hidden;font-size:14px;line-height:1.6;word-wrap:break-word}
 
 /*网站logo*/
-.logo{float:left;margin:0;display:inline-block;width:125px;}
-.logo a{display:block;height:50px;width:120px; background-image:url("logo.png");background-size: 120px 50px;background-repeat: no-repeat;}
+.logo{float:left;margin:0;display:inline-block;width:201px;}
+.logo a{display:block;height:50px;width:201px; background-image:url("logo.png");background-size: 201px 50px;background-repeat: no-repeat;}
 
 /*用户头像*/
 .avatar-16{width:16px;height:16px;border-radius:50%;}
